@@ -1,0 +1,11 @@
+{{#each this}}
+<div class="marcup">
+    <img src="{{urlToImage}}" alt="{{description}}"  class="marcup-image">
+    <div class="marcup-container">
+        <h2 class="marcup-title">{{title}}</h2>
+        <p class="marcup-content">{{content}}</p>
+        <p class="marcup-author"><b>Author:</b>{{author}}</p>
+        <p class="marcup-published-at"><b>Date:</b>{{publishedAt}}</p>
+    </div>
+</div>
+{{/each}}
